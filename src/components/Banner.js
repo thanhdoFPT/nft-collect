@@ -13,7 +13,7 @@ const Banner = () => {
         <div>
           <div className='flex-1 text-center font-secondary lg:text-left'>
             <motion.h1 variants={fadeIn('up', 0.4)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='text-[55px] font-bold leading-[0.8] lg:text-[110px] mb-5'>
-              {/* THÀNH <span>ĐÔ</span> */}
+              
             </motion.h1>
             <motion.div variants={fadeIn('up', 0.4)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='mb-6 text-[36px lg:text-[60px] font-secondary font-semibold uppercase leading-[1]'>
             
@@ -28,14 +28,14 @@ const Banner = () => {
               <a href='#' className='text-gradient btn-link'> Cafey NFT</a>
             </motion.div>
             <motion.div variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-              <a style={{ fontSize: 40, paddingRight: 20 }} href='https://github.com/thanhdo21d'>
+              <a style={{ fontSize: 40, paddingRight: 20 }} href=''>
                 <BsDiscord />
               </a>
 
-              <a style={{ fontSize: 40, paddingRight: 20 }} href='https://www.facebook.com/DSno01/'>
+              <a style={{ fontSize: 40, paddingRight: 20 }} href='https://twitter.com/cafey_nft_sui'>
                 <SlSocialTwitter />
               </a>
-              <a style={{ fontSize: 40 }}>
+              <a style={{ fontSize: 40 }} href='https://app.gitbook.com/o/5HNCKFRzeJnTD9uejYIS/s/Uh77GJtWLc3Z1hQBs5Ad/introduction/welcome-to-cafey-nft-sui'>
                 <i className="fa fa-envelope"></i>
               </a>
             </motion.div>
