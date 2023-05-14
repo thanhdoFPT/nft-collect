@@ -48,7 +48,7 @@ const Nav = () => {
           smooth={true}
           spy={true}
           className='cursor-pointer w-[90px] h-[60px] flex items-center justify-center'>
-          Roadmap
+          Message
         </Link>
       </div>
     </div>
