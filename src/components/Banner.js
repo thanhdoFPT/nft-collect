@@ -35,7 +35,7 @@ const Banner = () => {
               <a style={{ fontSize: 40, paddingRight: 20 }} href='https://twitter.com/cafey_nft_sui'>
                 <SlSocialTwitter />
               </a>
-              <a style={{ fontSize: 40 }} href='https://app.gitbook.com/o/5HNCKFRzeJnTD9uejYIS/s/Uh77GJtWLc3Z1hQBs5Ad/introduction/welcome-to-cafey-nft-sui'>
+              <a style={{ fontSize: 40 }} href='https://cafeynftsui.gitbook.io/1/introduction/welcome-to-cafey-nft-sui'>
                 <i className="fa fa-envelope"></i>
               </a>
             </motion.div>
