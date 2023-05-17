@@ -41,7 +41,7 @@ const Nav = () => {
           smooth={true}
           spy={true}
           className='cursor-pointer w-[160px] h-[60px] flex items-center justify-center'>
-          Vibe
+          Roadmap
         </Link>
         <Link to='contact'
           activeClass='active'
