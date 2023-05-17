@@ -78,7 +78,7 @@ const Work = () => {
             <img className='transition-all duration-500 group-hover:scale-125' src={img4} alt='s' />
 
             <div className='absolute z-50 transition-all duration-500 -bottom-full left-12 group-hover:bottom-24'>
-              <span style={{ fontSize: 40 }} className='text-gradient'> 
+              <span  className='text-gradient'> 
                   Work to list $CAFEY on tier 3 CEX like MEXC, Gate.io
                   Expand cooperation with launchpad on different blockchains to deploy consulting services
                 </span>
