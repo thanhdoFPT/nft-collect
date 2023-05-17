@@ -12,10 +12,10 @@ const Work = () => {
       <div className='flex flex-col lg:flex-row gap-x-10'>
         <div className='flex flex-col flex-1 mb-10 gap-y-12 lg:mb-0'>
           <motion.div variants={fadeIn('left', 0.3)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.3 }}>
-            <h2 className='pl-3 leading-tight h2 text-accent'> movember  </h2>
+            <h2 className='pl-3 leading-tight h2 text-accent'> Roadmap  </h2>
             <p className='flex flex-row items-center justify-center px-4 pt-2 font-mono tracking-wider uppercase duration-200 rounded first::pt-0 text-2xs font-500 padding-huge'>
           Our thesis at Cafey  is that Web3 represents a new era of decentralized connectivity, where we can bring together the digital and physical worlds, and connect people from all walks of life to a decentralized web of opportunities. </p>
-            <button onClick={() => { return <a href='https://www.facebook.com/DSno01/'></a> }} className='mt-5 btn btn-sm'> View all Collection</button>
+            <button  className='mt-5 btn btn-sm'> View all Collection</button>
           </motion.div>
 
           <motion.div variants={fadeIn('left', 0.3)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.3 }} className='relative overflow-hidden border-2 group border-orange/50 rounded-xl' >
