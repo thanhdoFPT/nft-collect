@@ -10,19 +10,20 @@ const Contact = () => {
   const validateWebsite = (e) => {
        e.preventDefault()
     const trimmedWebsite = website.trim();
+     const regex = /^[A-Za-z]+$/;
     if (trimmedWebsite === '') {
       setErrorMessage('please enter your website....');
     } else if (!trimmedWebsite.includes('.')) {
       setErrorMessage('Invalid website address...');
-    } else {
+    }
+     else if (!regex.test(website)) {
+      setErrorMessage('Invalid website address...');
+    } 
+    else {
       setErrorMessage('');
       setCheck(!check)
-      // Xử lý logic tiếp theo khi website hợp lệ
     }
   };
-  const handelCheck =(e) => {
-   
-  }
   return <section className='py-16 lg:section' id='contact'>
     <div className='container mx-auto'>
            <h2 className='pb-5 text-xl tracking-wider text-center text-gradient '> We have discovered a new molecule that can protect us from scams <br/> this Cafey NFT genuine link checker has a function to validate websites.</h2>
