@@ -29,16 +29,16 @@ const Contact = () => {
   return <section className='py-16 lg:section' id='contact'>
     <div className='container mx-auto'>
       <h2 className='text-2xl tracking-wider text-center uppercase text-gradient'>How does Cafey Detector works?</h2>
-      <p className='pt-10 pb-5 pl-2 tracking-wider text-left text-md text-gradient '>
+      <p className='pt-10 pb-5 pl-2 tracking-wider text-left text-md text-gradient uppercase '>
           1. This too will check the validity of the website from the database that the developer has input.
       </p>
-      <p className='pb-5 pl-2 tracking-wider text-left text-md text-gradient '>
+      <p className='pb-5 pl-2 tracking-wider text-left text-md text-gradient uppercase'>
           2. A "LEGIT" warning will appear if the URL is good to join.
       </p>
-      <p className='pb-5 pl-2 tracking-wider text-left text-md text-gradient '>
+      <p className='pb-5 pl-2 tracking-wider text-left text-md text-gradient uppercase'>
          3. A "DANGER" warning will appear if this site has weird database.
       </p>
-      <p className='pb-5 pl-2 tracking-wider text-left text-md text-gradient '>
+      <p className='pb-5 pl-2 tracking-wider text-left text-md text-gradient uppercase'>
          We are still working on improving this tool as much as we can. Sometimes it will crash because of conflict with our metadata.
       </p>
       
