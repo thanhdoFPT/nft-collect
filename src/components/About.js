@@ -30,7 +30,7 @@ const About = () => {
             <div>
               
               <div className='font-primary text-sm tracking-[2px]'>
-               <p className='my-10 mb-5 ml-2 text-2xl md:text-4xl xl:text-4xl text-gradient btn-link'>Buy a Cafey NFT</p> 
+               <p className='my-10 mb-5 ml-2 text-2xl md:text-4xl xl:text-4xl text-gradient btn-link'>Buy a CAFEY SUI NFT</p> 
               </div>
             </div>
                      <motion.div variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='flex items-center mx-auto mb-12 max-w-max gap-x-6 lg:mx-0'>
