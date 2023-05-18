@@ -34,7 +34,7 @@ const Work = () => {
 
             <div className='absolute z-50 transition-all duration-700 -bottom-full left-12 group-hover:bottom-8'>
 
-                            <button className=' btn btn-lg'> Q2</button>
+                            <button className='uppercase btn btn-lg'> question 2</button>
 
             </div>
           </motion.div>
@@ -64,7 +64,7 @@ const Work = () => {
 
             <div className='absolute z-50 transition-all duration-700 -bottom-full left-12 group-hover:bottom-8'>
 
-                            <button className='btn btn-lg'> Q1</button>
+                            <button className='uppercase btn btn-lg'> question 1</button>
 
             </div>
           </div>
@@ -85,7 +85,7 @@ const Work = () => {
             </div>
 
             <div className='absolute z-50 transition-all duration-700 -bottom-full left-12 group-hover:bottom-8'>
-                            <button className='btn btn-lg'> Q3</button>
+                            <button className='btn btn-lg uppercase'> question 3</button>
             </div>
           </motion.div>
 
