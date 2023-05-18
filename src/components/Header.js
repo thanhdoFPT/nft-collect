@@ -8,7 +8,7 @@ const Header = () => {
     <div className='container relative mx-auto'>
       <div className='flex items-center justify-between'>
          <motion.div variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='flex items-center mx-auto mb-2 max-w-max gap-x-6 lg:mx-0'>
-              <a href='#' className='text-3xl text-gradient btn-link'> Cafey NFT</a>
+              <a href='#' className='text-3xl text-gradient btn-link'> CAFEY NFT SUI</a>
             </motion.div>
       
       </div>
