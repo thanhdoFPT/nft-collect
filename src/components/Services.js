@@ -19,7 +19,7 @@ const Services = () => {
       setCurrentImageIndex((prevIndex) =>
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
-    }, 300);
+    }, 1000);
     return () => clearInterval(interval);
   }, [currentImageIndex]);
 
