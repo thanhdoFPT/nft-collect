@@ -47,7 +47,7 @@ const Nav = () => {
           activeClass='active'
           smooth={true}
           spy={true}
-          className='cursor-pointer w-[150px] h-[60px] flex items-center justify-center'>
+          className='cursor-pointer w-[190px] h-[66px] flex items-center justify-center'>
           Detector tool
         </Link>
       </div>
