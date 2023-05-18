@@ -88,7 +88,7 @@ const Contact = () => {
           <p className='p-1 pt-1 pl-2 text-sm tracking-wider text-center text-gradient'>of  the  project has registered </p>
           <p className='p-1 pt-1 pl-2 text-sm tracking-wider text-center text-gradient'>Their Link to this system </p>
                      {/* <br/> of  the  project has registered their Link to this system */}
-          <button onClick={()=>setCheck(!check)} className='block mx-auto mt-5 btn btn-lg'> NICE !</button>
+          <button onClick={()=>setCheck(!check)} className='block mx-auto mt-5 btn btn-lg'> LEGIT !</button>
           <p > </p>
           </div>}
         </div>
