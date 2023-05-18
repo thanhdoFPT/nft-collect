@@ -23,7 +23,19 @@ const Contact = () => {
   };
   return <section className='py-16 lg:section' id='contact'>
     <div className='container mx-auto'>
-           <h2 className='pb-5 text-xl tracking-wider text-center text-gradient '> We have discovered a new molecule that can protect us from scams <br/> this Cafey NFT genuine link checker has a function to validate websites.</h2>
+           <h2 className='text-2xl tracking-wider text-center text-gradient'>How does Cafey Detector works?</h2>
+      <p className='pt-10 pb-5 pl-2 tracking-wider text-left text-md text-gradient '>
+          1. This too will check the validity of the website from the database that the developer has input.
+      </p>
+      <p className='pb-5 pl-2 tracking-wider text-left text-md text-gradient '>
+          2. A "LEGIT" warning will appear if the URL is good to join.
+      </p>
+      <p className='pb-5 pl-2 tracking-wider text-left text-md text-gradient '>
+         3. An "DANGER" warning will appear if this site has weird database.
+      </p>
+      <p className='pb-5 pl-2 tracking-wider text-left text-md text-gradient '>
+         We are still working on improving this tool as much as we can. Sometimes it will crash because of conflict with our metadata.
+      </p>
       <div className='relative flex items-center justify-center'>
            <form  className='block mx-auto mt-5'> 
         <input value={website}
