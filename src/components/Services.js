@@ -11,7 +11,6 @@ const Services = () => {
     img2,
     img3,
     img4,
-    img5,
   ]);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -21,16 +20,15 @@ const Services = () => {
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
     }, 300);
-
     return () => clearInterval(interval);
   }, [currentImageIndex]);
 
   return (
-    <div className="container flex items-center gap-8 mx-auto image-slider">
+    <div className="container flex-col items-center gap-8 mx-auto mt-64 sm:mt-64 md:mt-64 md:grid-cols-4 md:gap-10 sm:flex-col md:grid image-slider">
       {images.map((image, index) => (
         <div
           key={index}
-          className={`image-slide w-[300px]  ${
+          className={`image-slide w-[200px]  md:w-[160px] lg:w-[200px] xl:w-[280px]   ${
             index === currentImageIndex ? 'active' : ''
           }`}
         >
