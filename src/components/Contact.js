@@ -28,7 +28,7 @@ const Contact = () => {
   };
   return <section className='py-16 lg:section' id='contact'>
     <div className='container mx-auto'>
-      <h2 className='text-2xl tracking-wider text-center text-gradient'>How does Cafey Detector works?</h2>
+      <h2 className='text-2xl tracking-wider text-center uppercase text-gradient'>How does Cafey Detector works?</h2>
       <p className='pt-10 pb-5 pl-2 tracking-wider text-left text-md text-gradient '>
           1. This too will check the validity of the website from the database that the developer has input.
       </p>
@@ -83,11 +83,11 @@ const Contact = () => {
         </form>
         {check && <div   className='w-[310px] h-[330px] left-[20%] md:left-[30%] lg:left-[37%] top-[180px] absolute bg-white bg-opacity-10	  rounded-3xl shadow-2xl'> 
           <img className='w-[100px] h-[100px] block mx-auto mt-5  rounded-full' src={ Images} />
-          <p className='p-1 pt-5 text-sm tracking-wider text-center text-gradient'>This url is Listed in our database </p>
-          <p className='p-1 pt-1 text-sm tracking-wider text-center text-gradient'>This is means that the developer </p>
-          <p className='p-1 pt-1 pl-2 text-sm tracking-wider text-center text-gradient'>of  the  project has registered </p>
-          <p className='p-1 pt-1 pl-2 text-sm tracking-wider text-center text-gradient'>Their Link to this system </p>
-                     {/* <br/> of  the  project has registered their Link to this system */}
+          <p className='p-1 pt-5 text-sm tracking-wider text-center text-gradient'>THIS URL IS SAFE TO CONNECT </p>
+//           <p className='p-1 pt-1 text-sm tracking-wider text-center text-gradient'>This is means that the developer </p>
+//           <p className='p-1 pt-1 pl-2 text-sm tracking-wider text-center text-gradient'>of  the  project has registered </p>
+//           <p className='p-1 pt-1 pl-2 text-sm tracking-wider text-center text-gradient'>Their Link to this system </p>
+//                      {/* <br/> of  the  project has registered their Link to this system */}
           <button onClick={()=>setCheck(!check)} className='block mx-auto mt-5 btn btn-lg'> LEGIT !</button>
           <p > </p>
           </div>}
