@@ -25,7 +25,7 @@ const Banner = () => {
             </motion.p>
             <motion.div variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='flex items-center mx-auto mb-12 max-w-max gap-x-6 lg:mx-0'>
               <button className='btn btn-lg'> Buy Now</button>
-              <a href='#' className='text-gradient btn-link'> Cafey NFT</a>
+              <a href='#' className='text-gradient btn-link'> CAFEY NFT SUI</a>
             </motion.div>
             <motion.div variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
               <a style={{ fontSize: 40, paddingRight: 20 }} href=''>
