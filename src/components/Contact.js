@@ -10,13 +10,10 @@ const Contact = () => {
   const validateWebsite = (e) => {
        e.preventDefault()
     const trimmedWebsite = website.trim();
-     const regex = /^[A-Za-z]+$/;
+     
     if (trimmedWebsite === '') {
       setErrorMessage('please enter your website....');
     } else if (!trimmedWebsite.includes('.')) {
-      setErrorMessage('Invalid website address...');
-    }
-     else if (!regex.test(website)) {
       setErrorMessage('Invalid website address...');
     } 
     else {
