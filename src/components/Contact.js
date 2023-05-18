@@ -81,7 +81,7 @@ const Contact = () => {
               )}
             </button>
         </form>
-        {check && <div  className='w-[310px] h-[330px] left-[37%] top-[180px] absolute bg-white bg-opacity-10	  rounded-3xl shadow-2xl'> 
+        {check && <div  className='w-[310px] h-[330px] left-[20%] md:left-[30%] lg:left-[37%] top-[180px] absolute bg-white bg-opacity-10	  rounded-3xl shadow-2xl''> 
           <img className='w-[100px] h-[100px] block mx-auto mt-5  rounded-full' src={ Images} />
           <p className='p-1 pt-5 text-sm tracking-wider text-center text-gradient'>This url is Listed in our database </p>
           <p className='p-1 pt-1 text-sm tracking-wider text-center text-gradient'>This is means that the developer </p>
