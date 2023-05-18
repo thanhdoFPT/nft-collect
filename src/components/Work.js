@@ -26,9 +26,9 @@ const Work = () => {
 
             <div className='absolute z-50 transition-all duration-500 -bottom-full left-12 group-hover:bottom-24'>
               <span  className=' font-medium text-white'>
-                  Finish Coffeeswap (Aggregator DEX)
-                    Finish Sui Contract Scan
-                    Launching project consulting services, building products
+                    - Finish Coffeeswap (Aggregator DEX) <br/>
+                    - Finish Sui Contract Scan <br/>
+                    - Launching project consulting services, building products <br/>
                 </span>
             </div>
 
@@ -52,12 +52,12 @@ const Work = () => {
 
             <div className='absolute z-50 transition-all duration-500 -bottom-full left-12 group-hover:bottom-24'>
               <span  className='font-medium text-white'> 
-                  Partners with top NFT collections on Sui ecosystem
-                    Do marketing (Booking influencer, top news twitter)
-                    Launch Cafey NFT Sui
-                    Launch $CAFEY 
-                    Finish Dapp
-                    Launch Sui New Tokens deploy tool
+                  - Partners with top NFT collections on Sui ecosystem <br/>
+                  - Do marketing (Booking influencer, top news twitter)<br/>
+                  - Launch Cafey NFT Sui <br/>
+                  - Launch $CAFEY  <br/>
+                  - Finish Dapp <br/>
+                  - Launch Sui New Tokens deploy tool <br/>
                 
                 </span>
             </div>
@@ -79,8 +79,8 @@ const Work = () => {
 
             <div className='absolute z-50 transition-all duration-500 -bottom-full left-12 group-hover:bottom-24'>
               <span  className='font-medium text-white'> 
-                  Work to list $CAFEY on tier 3 CEX like MEXC, Gate.io
-                  Expand cooperation with launchpad on different blockchains to deploy consulting services
+                  - Work to list $CAFEY on tier 3 CEX like MEXC, Gate.io <br/>
+                  - Expand cooperation with launchpad on different blockchains to deploy consulting services <br/>
                 </span>
             </div>
 
