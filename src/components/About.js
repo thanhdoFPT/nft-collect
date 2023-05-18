@@ -13,7 +13,7 @@ const About = () => {
     <div className='container mx-auto shadow-2xl'>
       <div className='relative flex flex-col h-screen gap-x-20 lg:flex-row lg:items-center lg:gap-y-10 lg:gap-y-0'>
         <motion.div variants={fadeIn('right', 0.3)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.3 }} className='flex-1 bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top mt-20' >
-          <p className='mb-5 ml-2 text-4xl md:text-6xl xl:text-6xl text-gradient btn-link'>Cafey NFT</p>
+          <p className='mb-5 ml-2 text-4xl md:text-6xl xl:text-6xl text-gradient btn-link'>CAFEY NFT SUI</p>
           <p className='mb-10 ml-2 text-sm md:text-xl xl:text-2xl text-gradient btn-link'>The 'Cafey NFT' Collection</p>
           <img className=' h-2/3 rounded-2xl' src={aboutNew} />
         </motion.div>
@@ -34,7 +34,7 @@ const About = () => {
               </div>
             </div>
                      <motion.div variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='flex items-center mx-auto mb-12 max-w-max gap-x-6 lg:mx-0'>
-              <button className='mt-10 btn btn-lg'> Buy Now</button>
+             
             </motion.div>
             <div>
               <div className='font-primary text-sm tracking-[2px]'>
