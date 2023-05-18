@@ -36,7 +36,7 @@ const Contact = () => {
           2. A "LEGIT" warning will appear if the URL is good to join.
       </p>
       <p className='pb-5 pl-2 tracking-wider text-left text-md text-gradient '>
-         3. An "DANGER" warning will appear if this site has weird database.
+         3. A "DANGER" warning will appear if this site has weird database.
       </p>
       <p className='pb-5 pl-2 tracking-wider text-left text-md text-gradient '>
          We are still working on improving this tool as much as we can. Sometimes it will crash because of conflict with our metadata.
