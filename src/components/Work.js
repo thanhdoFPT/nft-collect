@@ -25,7 +25,7 @@ const Work = () => {
             <img className='transition-all duration-500 group-hover:scale-125' src={img1} alt='s' />
 
             <div className='absolute z-50 transition-all duration-500 -bottom-full left-12 group-hover:bottom-24'>
-              <span  className=' text-gradient'>
+              <span  className=' font-medium text-white'>
                   Finish Coffeeswap (Aggregator DEX)
                     Finish Sui Contract Scan
                     Launching project consulting services, building products
@@ -34,7 +34,7 @@ const Work = () => {
 
             <div className='absolute z-50 transition-all duration-700 -bottom-full left-12 group-hover:bottom-8'>
 
-                            <button className='uppercase btn btn-lg'> question 2</button>
+                            <button className='uppercase btn btn-lg'> precious 2</button>
 
             </div>
           </motion.div>
@@ -51,7 +51,7 @@ const Work = () => {
             <img className='transition-all duration-500 group-hover:scale-125' src={img2} alt='s' />
 
             <div className='absolute z-50 transition-all duration-500 -bottom-full left-12 group-hover:bottom-24'>
-              <span  className='text-gradient'> 
+              <span  className='font-medium text-white'> 
                   Partners with top NFT collections on Sui ecosystem
                     Do marketing (Booking influencer, top news twitter)
                     Launch Cafey NFT Sui
@@ -64,7 +64,7 @@ const Work = () => {
 
             <div className='absolute z-50 transition-all duration-700 -bottom-full left-12 group-hover:bottom-8'>
 
-                            <button className='uppercase btn btn-lg'> question 1</button>
+                            <button className='uppercase btn btn-lg'> precious 1</button>
 
             </div>
           </div>
@@ -78,14 +78,14 @@ const Work = () => {
             <img className='transition-all duration-500 group-hover:scale-125' src={img4} alt='s' />
 
             <div className='absolute z-50 transition-all duration-500 -bottom-full left-12 group-hover:bottom-24'>
-              <span  className='text-gradient'> 
+              <span  className='font-medium text-white'> 
                   Work to list $CAFEY on tier 3 CEX like MEXC, Gate.io
                   Expand cooperation with launchpad on different blockchains to deploy consulting services
                 </span>
             </div>
 
             <div className='absolute z-50 transition-all duration-700 -bottom-full left-12 group-hover:bottom-8'>
-                            <button className='btn btn-lg uppercase'> question 3</button>
+                            <button className='btn btn-lg uppercase'> precious 3</button>
             </div>
           </motion.div>
 
