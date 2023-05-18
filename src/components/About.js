@@ -3,7 +3,7 @@ import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion'
 import { fadeIn } from '../variants'
-import aboutNew from '../assets/hi/photo_2023-02-18_22-14-13.jpg'
+import aboutNew from '../assets/IMG_4765.JPG'
 
 const About = () => {
   const [ref, inView] = useInView({
