@@ -32,7 +32,7 @@ const Work = () => {
             </div>
 
             <div className='absolute z-50 transition-all duration-700 -top-full left-12 group-hover:top-8'>
-                  <button className='uppercase btn btn-lg'> Q2/2023</button>
+                  <button className='uppercase btn btn-lg'> Q2- 07/2023</button>
 
             </div>
           </motion.div>
@@ -60,9 +60,9 @@ const Work = () => {
                 </span>
             </div>
 
-            <div className='absolute z-50 transition-all duration-700 -bottom-full left-12 group-hover:bottom-8'>
+            <div className='absolute z-50 transition-all duration-700 -top-full left-12 group-hover:top-8'>
 
-                            <button className='uppercase btn btn-lg'> precious 1</button>
+                            <button className='uppercase btn btn-lg'> Q1- 06/2023</button>
 
             </div>
           </div>
@@ -82,8 +82,8 @@ const Work = () => {
                 </span>
             </div>
 
-            <div className='absolute z-50 transition-all duration-700 -bottom-full left-12 group-hover:bottom-8'>
-                            <button className='btn btn-lg uppercase'> precious 3</button>
+            <div className='absolute z-50 transition-all duration-700 -top-full left-12 group-hover:top-8'>
+                            <button className='btn btn-lg uppercase'>  Q3/2023 </button>
             </div>
           </motion.div>
 
