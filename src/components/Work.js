@@ -48,7 +48,7 @@ const Work = () => {
             </div>
             <img className='transition-all duration-500 group-hover:scale-125' src={img2} alt='s' />
 
-            <div className='absolute z-50 transition-all duration-500 -bottom-full left-12 group-hover:bottom-24'>
+            <div className='absolute z-50 transition-all duration-500 -bottom-full left-12 group-hover:bottom-2'>
               <span  className='font-medium text-white'> 
                   - Partners with top NFT collections on Sui ecosystem <br/>
                   - Do marketing (Booking influencer, top news twitter)<br/>
