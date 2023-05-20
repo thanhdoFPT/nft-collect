@@ -15,7 +15,7 @@ const About = () => {
         <motion.div variants={fadeIn('right', 0.3)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.3 }} className='flex-1 bg-contain bg-no-repeat h-[640px] bg-top mt-20' >
           <p className='mb-5 ml-2 text-4xl md:text-6xl xl:text-6xl text-gradient btn-link'>CAFEY NFT SUI</p>
           <p className='mb-10 ml-2 text-sm md:text-xl xl:text-2xl text-gradient btn-link'>The 'Cafey NFT' Collection</p>
-          <img className=' h-2/3 rounded-2xl' src={aboutNew} />
+          <img className=' h-2/3 rounded-2xl w-full object-cover' src={aboutNew} />
         </motion.div>
 
         <motion.div variants={fadeIn('left', 0.3)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.3 }} className='flex-1'>
