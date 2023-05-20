@@ -19,7 +19,7 @@ const About = () => {
         </motion.div>
 
         <motion.div variants={fadeIn('left', 0.3)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.3 }} className='flex-1 relative'>
-          <div className='absolute mt-5 -top-20 right-5'>
+          <div className='absolute mt-5 -top-[6.5rem] right-5'>
             <p className='md:text-lg xl:text-xl text-gradient btn-link'>Collection Size</p>
             <h2 className='text-4xl h2 text-accent md:text-5xl xl:text-6xl'>
                 4.444
