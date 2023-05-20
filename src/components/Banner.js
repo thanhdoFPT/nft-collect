@@ -1,5 +1,5 @@
 import React from 'react';
-import Images from '../assets/4.png'
+import Images from '../assets/796D8398-A2AE-4004-8A63-215060DA49C4.jpeg'
 import { FaGithub, FaFacebook, FaDribbble } from 'react-icons/fa'
 import { SlSocialTwitter } from 'react-icons/sl'
 import { BsDiscord } from 'react-icons/bs'
@@ -43,7 +43,7 @@ const Banner = () => {
         </div>
 
         <motion.div variants={fadeIn('up', 0.6)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[420px]'>
-          <img  className='shadow-2xl imgdemo rounded-full w-[320px]  ' src={Images} alt='' />
+          <img  className='shadow-2xl  rounded-full w-[320px]  ' src={Images} alt='' />
         </motion.div>
       </div>
     </div>
