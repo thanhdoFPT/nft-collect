@@ -11,7 +11,7 @@ const About = () => {
   })
   return <section className='mt-10 section' id='about' ref={ref} >
     <div className='container mx-auto shadow-2xl'>
-      <div className='relative flex flex-col h-screen gap-x-20 lg:flex-row lg:items-center lg:gap-y-10 lg:gap-y-0'>
+      <div className='relative flex flex-col h-screen gap-x-10 lg:flex-row lg:items-center lg:gap-y-10 lg:gap-y-0'>
         <motion.div variants={fadeIn('right', 0.3)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.3 }} className='w-2/3 bg-contain bg-no-repeat h-[640px] bg-top mt-20' >
           <p className='mb-5 ml-2 text-4xl md:text-6xl xl:text-6xl text-gradient btn-link'>CAFEY NFT SUI</p>
           <p className='mb-10 ml-2 text-sm md:text-xl xl:text-2xl text-gradient btn-link'>The 'Cafey NFT' Collection</p>
@@ -19,7 +19,7 @@ const About = () => {
         </motion.div>
 
         <motion.div variants={fadeIn('left', 0.3)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.3 }} className='flex-1 relative'>
-          <div className='absolute mt-5 top-10 right-5'>
+          <div className='absolute mt-5 -top-24 right-5'>
             <p className='md:text-lg xl:text-xl text-gradient btn-link'>Collection Size</p>
             <h2 className='text-4xl h2 text-accent md:text-5xl xl:text-6xl'>
                 4.444
