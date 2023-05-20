@@ -1,5 +1,5 @@
 import React from 'react';
-import Images from '../assets/796D8398-A2AE-4004-8A63-215060DA49C4.jpeg'
+import Images from '../assets/banner.jpg'
 import { FaGithub, FaFacebook, FaDribbble } from 'react-icons/fa'
 import { SlSocialTwitter } from 'react-icons/sl'
 import { BsDiscord } from 'react-icons/bs'
