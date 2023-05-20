@@ -10,7 +10,7 @@ import { fadeIn } from '../variants'
 const Nav = () => {
   return <nav className='fixed z-50 w-full overflow-hidden bottom-2 lg:bottom-8'>
     <div className='container mx-auto'>
-      <div className='w-full bg-black/20 h-[96px] backdrop-blur-2xl rounded-full max-w-[660px] mx-auto py-2 px-5 flex justify-between text-2xl text-white/50'>
+      <div className='w-full bg-black/20 items-center h-[96px] backdrop-blur-2xl rounded-full max-w-[660px] mx-auto py-2 px-5 flex justify-between text-2xl text-white/50'>
         <Link to='home'
           activeClass='active'
           smooth={true}
