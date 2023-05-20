@@ -32,7 +32,7 @@ const Work = () => {
             </div>
 
             <div className='absolute z-50 transition-all duration-700 -top-full left-12 group-hover:top-8'>
-                  <button className='uppercase btn btn-lg'> Q2- 07/2023</button>
+                  <button className='uppercase btn btn-lg'>  07/2023</button>
 
             </div>
           </motion.div>
