@@ -43,7 +43,7 @@ const Banner = () => {
         </div>
 
         <motion.div variants={fadeIn('up', 0.6)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[420px]'>
-          <img  className='shadow-2xl  rounded-full w-[320px]  ' src={Images} alt='' />
+          <img  className='shadow-2xl   w-[420px]  ' src={Images} alt='' />
         </motion.div>
       </div>
     </div>
